@@ -319,7 +319,7 @@ img {
 }
 
 .footer-inner {
-    width: 264px;
+    max-width: 264px;
 }
 
 .page-footer .logo {
