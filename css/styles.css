@@ -318,23 +318,30 @@ img {
     padding: 100px 0;
 }
 
-.footer-inner {
-
-}
-
 .page-footer .logo {
     display: inline-block;
-    padding: 0;
     margin-bottom: 16px;
+    padding: 0;
+    /* важливо */
 }
 
 .page-footer .logo span {
     color: #f4f4fd;
 }
 
-.page-footer p {
+/* ОЦЕ РОБИТЬ 264px ЯК У FIGMA */
+.footer-content {
+    width: 264px;
+    /* можна max-width, але width 100% точно спрацює */
+}
+
+.footer-text {
+    margin: 0;
+    width: 264px;
+    /* дублюємо, щоб 100% не розтягував */
+    color: #f4f4fd;
+
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd;
 }
